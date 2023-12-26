@@ -1,9 +1,16 @@
 # LinkBot
 
-[1](https://github.com/MostaAshour/LinkBot/tree/main?tab=readme-ov-file#3-main-action-screen)
+- [App Description](https://github.com/MostaAshour/LinkBot/tree/main?tab=readme-ov-file#app-description)
+- [App Frames/Phases:](https://github.com/MostaAshour/LinkBot/tree/main?tab=readme-ov-file#app-framesphases)
+  - [1. Login Screen](https://github.com/MostaAshour/LinkBot/tree/main?tab=readme-ov-file#1-login-screen)
+  - [2. Adding Account Screen](https://github.com/MostaAshour/LinkBot/tree/main?tab=readme-ov-file#2-adding-account-screen)
+  - [3. Main Action Screen](https://github.com/MostaAshour/LinkBot/tree/main?tab=readme-ov-file#3-main-action-screen)
+  - [4. LinkedIn Action Screen](https://github.com/MostaAshour/LinkBot/tree/main?tab=readme-ov-file#4-linkedin-action-screen)
+  - [5. Message Template Screen](https://github.com/MostaAshour/LinkBot/tree/main?tab=readme-ov-file#5-message-template-screen)
+- [Demo Video](https://github.com/MostaAshour/LinkBot/tree/main?tab=readme-ov-file#demo-video)
 
 ## App Description:
--, the application is about automating, managing, and simplifying LinkedIn actions and other communication platforms such as Skype, Outlook, Gmail, and WhatsApp.
+- Basically, the application is about automating, managing, and simplifying LinkedIn actions and other communication platforms such as Skype, Outlook, Gmail, and WhatsApp.
 - The main goal was to develop a desktop application that seamlessly streamlined targeted profile searches on LinkedIn, successfully capturing and storing profile information within our database. Integrated automated connection requests, email corresponding to specific filters, and multi-platform communication outreach (LinkedIn, Skype, Outlook, WhatsApp, Gmail) to optimize engagement with potential candidates.
 - The overarching aim was to substantially minimize the time investment previously associated with manual execution in a user-friendly, interactive system resulting in enhanced efficiency and simplicity.
 
