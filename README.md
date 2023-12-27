@@ -1,5 +1,6 @@
 # LinkBot
 
+## Contents:
 - [App Description](https://github.com/MostaAshour/LinkBot/tree/main?tab=readme-ov-file#app-description)
 - [App Frames/Phases:](https://github.com/MostaAshour/LinkBot/tree/main?tab=readme-ov-file#app-framesphases)
   - [1. Login Screen](https://github.com/MostaAshour/LinkBot/tree/main?tab=readme-ov-file#1-login-screen)
@@ -10,58 +11,79 @@
 - [Demo Video](https://github.com/MostaAshour/LinkBot/tree/main?tab=readme-ov-file#demo-video)
 
 ## App Description:
-- Basically, the application is about automating, managing, and simplifying LinkedIn actions and other communication platforms such as Skype, Outlook, Gmail, and WhatsApp.
-- The main goal was to develop a desktop application that seamlessly streamlined targeted profile searches on LinkedIn, successfully capturing and storing profile information within our database. Integrated automated connection requests, email corresponding to specific filters, and multi-platform communication outreach (LinkedIn, Skype, Outlook, WhatsApp, Gmail) to optimize engagement with potential candidates.
-- The overarching aim was to substantially minimize the time investment previously associated with manual execution in a user-friendly, interactive system resulting in enhanced efficiency and simplicity.
+- The LinkBot application automates, manages, and simplifies actions on LinkedIn and other communication platforms like Skype, Outlook, Gmail, and WhatsApp. It is a desktop application designed to streamline targeted profile searches on LinkedIn, capture and store profile information in a database, and facilitate automated connection requests, email correspondence, and multi-platform communication outreach. The goal is to enhance efficiency and simplicity by minimizing the time investment previously required for manual execution.
 
 ## App Frames/Phases:
 ### 1. Login Screen:
 <img src="./Demo/1-Screenshot 2023-12-10 201504.png" width="750" height="600">
 
-- In this screen, we can choose the accounts we want to sign in with, which we already saved in the system, and you can automatically log into all these accounts by just clicking on the "Login" button.
-- We also have an "Add Account" button, which will take us to the Adding Account Screen.
-- Finally, we have the **"Appearance Mode"**, in which we can change the application themes to white and dark.
+- Users can choose the accounts they want to sign in with, which are saved in the system. By clicking the "Login" button, they can automatically log into all these accounts.
+- There is an "Add Account" button that takes users to the Adding Account Screen.
+- Users can switch between different themes (white and dark) using the "Appearance Mode" feature.
 
 ### 2. Adding account Screen:
 <img src="./Demo/2-Add Accounts Screenshot 2023-12-10 201551.png" width="750" height="600">
 
-- This screen is used to add new accounts into the system to log into it in the future.
+- This screen allows users to add new accounts to the system for future login.
 
 ### 3. Main Action Screen:
 <img src="./Demo/3-Main Actions Screenshot 2023-12-10 202441.png" width="750" height="600">
 
-- LinkedIn Actions button: Takes us to the LinkedIn Action Screen.
-- Skype & Outlook section: After we specify and filter emails, then copy them to an Excel file, we will be ready not to limit the number of emails to send per click, choose the message template, and fill in the Outlook Subject and we're ready to send a fully automatically mails into skype and Outlook in just one go.
-- WhatsApp section: it's similar to Skype & Outlook functionality, except it's separated to send direct-message into WhatsApp according to specific phone numbers.
-- Add Message Template button: Takes us to Message Template Screen.
+- LinkedIn Actions button: Takes users to the LinkedIn Action Screen.
+- Skype & Outlook section: Users can specify and filter emails, copy them to an Excel file, and send automated emails to Skype and Outlook. They can customize the number of emails sent per click, choose message templates, and fill in the Outlook Subject to optimize communication.
+- WhatsApp section: Similar to Skype & Outlook functionality, users can send direct messages to specific phone numbers on WhatsApp.
+- Add Message Template button: Takes users to the Message Template Screen.
 
 ### 4. LinkedIn Action Screen:
 <img src="./Demo/4-Linkedin Actions Screenshot 2023-12-10 202637.png" width="750" height="600">
 
-1. Search for Profiles section: This section is responsible for automatically searching for new or existing profiles on LinkedIn, so we can simply insert the Search Term, Location, and the Connection Degree if needed, from now u will have two options:
-  - Start Searching button: It will loop over all search results pages, and save all these search results into our database to later use in fully profile scraping "Scraping Profiles section" or any other use (So if the search results got 1000 profiles, this action will save them all).
-  - Scrape Current Search Page button: After filling the cells correctly, "Manually" go to the search results, by clicking on this button, it will scrape and save just the shown search result page (Will save just the shown 10 profiles or whatever in that exact page).
+1. Search for Profiles section: This section automatically searches for new or existing profiles on LinkedIn. Users can insert the search term, location, and connection degree if necessary. They have two options:
+    - Start Searching button: It loops over all search result pages and saves the profiles into the database for later use, such as full profile scraping or other purposes.
+    - Scrape Current Search Page button: By clicking this button, users can manually go to the search results page and save the profiles shown on that page.
+    - Scraping Profiles section: Users can fully scrape the profiles obtained from the search results. They can set a limit on the number of profiles to scrape at once. The available options are:
 
-2. Scraping Profiles section: Now it's time to fully scrape profiles that we got from the search results in the previews step. We can limit how many profiles to scrape at once, and then we can use:
-  - Start Scraping Profiles button: This will loop over the profile limit, visit each profile, and scrape full profile information to our database.
-  - Scrape Current Profile button: Used to scrape manually opened profile information.
+2. Start Scraping Profiles button: It loops over the specified profile limit, visits each profile, and scrapes full profile information into the database.
+    - Scrape Current Profile button: Users can manually scrape the information from the currently opened profile.
+    - Send Connections section: Users can apply filters to the profiles in the database and specify the profile URL for sending connection requests.
 
-3. Send Connections section: After the preview two steps, we now have multiple profiles in our database, which we can do some filtrations under certain criteria, specify the profile URL, and we're ready to go
-  - Start Sending Connections button: It will start directly sending connection requests to these limited profiles with a certain message template "which will fit each account information as we will explain more in the next screen".
-  - Re-send Connections to withdrew profs button: It will send connection requests to profiles that we withdrew over 2 weeks ago "Which after we withdrew them, in the Other Action section".
+3. Start Sending Connections button: It sends connection requests to the selected profiles using a predefined message template that can be customized for each account.
+    - Re-send Connections to withdrew profiles button: It sends connection requests to profiles that were previously withdrawn, with a time limit of 2 weeks.
+    - Re-Messaging section: This section allows users to automatically re-message profiles who connected but didn't respond, or send direct messages to specific profiles.
 
-4. Re-Messaging section: This section is the most important and complicated part, we use this section to automatically re-message profiles who connected but didn't respond or to direct-message certain profiles.
-  - Re-message Non-responded Profiles button: Used to re-message profiles who connected but didn't respond within a period, which their last message contains a Special Char "To specify and filter more profiles which we will respond to".
-  - Start LinkedIn DM button: This is used to send direct messages to specific profiles on LinkedIn.
-
-5. Other Actions section: This section contains the rest of the actions that we can do on LinkedIn.
-  - Withdrew Non-connected Profiles button: This is used to withdraw profiles that didn't accept our connection request from or more than the specific period "The default is from or more than 2 weeks ago".
-  - Update Connections List button: In the first use, it will save our all connection lists into the database, after, it will just update and save just new connected profiles.
+4. Re-message Non-responded Profiles button: Users can re-message profiles who connected but didn't respond within a specified period, with the option to filter based on the content of their last message.
+    - Start LinkedIn DM button: Users can send direct messages to specific profiles on LinkedIn.
+  
+5. Other Actions section: This section includes additional actions that can be performed on LinkedIn.
+    - Withdrew Non-connected Profiles button: Users can withdraw connection requests sent to profiles that haven't been accepted after a specific period (default: 2 weeks).
+    - Update Connections List button: In the first use, it saves all connection lists into the database. Afterward, it updates and saves only newly connected profiles.
 
 ### 5. Message Template Screen:
 <img src="./Demo/5-Adding Message temp Screenshot 2023-12-10 202534.png" width="750" height="600">
 
-- last but not least, this Screen is used to add/edit/delete message templates.
+- This screen allows users to add, edit, and delete message templates.
 
 ## Demo Video:
-- And finally here's a demo video to show the application in action: [Video link](https://drive.google.com/file/d/1DLMQa2ZaJA83TNGOPHBrLjsrCfdJNE6t/view?usp=sharing)
+- Here's a demo video to showcasing the application in action: [Video link](https://drive.google.com/file/d/1DLMQa2ZaJA83TNGOPHBrLjsrCfdJNE6t/view?usp=sharing)
+
+## Requirements:
+The LinkBot application is developed using Python 3.9.0. Below are the required packages and dependencies:
+- Python 3.9.0: The programming language used for developing the application.
+  
+Packages:
+- numpy==1.21.6
+- pandas==1.3.5
+- pytz==2022.7.1
+- urllib3==1.26.14
+- selenium==3.141.0
+- customtkinter==5.1.2
+- chromedriver-autoinstaller==0.4.0
+
+You can find the complete list of required packages and their versions in the file [here](requirements.txt). We have to ensure that these packages are installed in our Python environment before running the application.
+
+## Contacts:
+I would be delighted to connect with you! Please feel free to reach out to me via LinkedIn or email for any inquiries or discussions.
+
+LinkedIn: [Mosta Ashour](https://www.linkedin.com/in/mosta-ashour/)
+Email: mostaomg@gmail.com
+
+Thank you and have a wonderful day! 😊
