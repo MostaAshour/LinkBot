@@ -86,7 +86,7 @@ You can find the complete list of required packages and their versions in the fi
 ## Contacts:
 I would be delighted to connect with you! Please feel free to reach out to me via LinkedIn or email for any inquiries or discussions.
 
-LinkedIn: [Mosta Ashour](https://www.linkedin.com/in/mosta-ashour/)
-Email: mostaomg@gmail.com
+- LinkedIn: [Mosta Ashour](https://www.linkedin.com/in/mosta-ashour/)
+- Email: mostaomg@gmail.com
 
 Thank you and have a wonderful day! 😊
