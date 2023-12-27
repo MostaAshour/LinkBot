@@ -9,6 +9,8 @@
   - [4. LinkedIn Action Screen](https://github.com/MostaAshour/LinkBot/tree/main?tab=readme-ov-file#4-linkedin-action-screen)
   - [5. Message Template Screen](https://github.com/MostaAshour/LinkBot/tree/main?tab=readme-ov-file#5-message-template-screen)
 - [Demo Video](https://github.com/MostaAshour/LinkBot/tree/main?tab=readme-ov-file#demo-video)
+- [Requirements](https://github.com/MostaAshour/LinkBot/tree/main?tab=readme-ov-file#requirements)
+- [Contacts](https://github.com/MostaAshour/LinkBot?tab=readme-ov-file#contacts)
 
 ## App Description:
 - The LinkBot application automates, manages, and simplifies actions on LinkedIn and other communication platforms like Skype, Outlook, Gmail, and WhatsApp. It is a desktop application designed to streamline targeted profile searches on LinkedIn, capture and store profile information in a database, and facilitate automated connection requests, email correspondence, and multi-platform communication outreach. The goal is to enhance efficiency and simplicity by minimizing the time investment previously required for manual execution.
