@@ -1,4 +1,5 @@
-# LinkBot
+# <img src="linkbot.png" width="50" height="50"> LinkBot 
+
 
 ## Contents:
 - [App Description](https://github.com/MostaAshour/LinkBot/tree/main?tab=readme-ov-file#app-description)
